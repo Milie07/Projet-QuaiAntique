@@ -1,0 +1,72 @@
+<div class="hero-scene text-center text-primary">
+   <div class="hero-scene-content">
+      <h1>Ma réservation</h1>
+   </div>
+</div>
+
+<div class="container">
+   <form>
+      <div class="mb-3">
+         <label for="NomInput" class="form-label">Nom</label>
+         <input type="text" class="form-control" id="NomInput" placeholder="Nom" value="" name="Nom">
+      </div>
+      <div class="mb-3">
+         <label for="PrenomInput" class="form-label">Prénom</label>
+         <input type="text" class="form-control" id="PrenomInput" placeholder="Prénom" value="" name="Prenom">
+      </div>
+      <div class="mb-3">
+         <label for="NbConvivesInput" class="form-label">Allergies</label>
+         <input type="text" class="form-control" id="NbConvivesInput" placeholder="Vos Allergies" value="" name="NbConvives" value="">
+      </div>
+      <div class="mb-3">
+         <label for="NbConvivesInput" class="form-label">Nombre de Convives</label>
+         <input type="text" class="form-control" id="NbConvivesInput" placeholder="Nombre de convives" name="NbConvives" value="">
+      </div>
+      <div class="mb-3">
+         <label for="DateInput" class="form-label">Date</label>
+         <input type="date" class="form-control" id="DateInput" name="Date">
+      </div>
+      <div class="mb-3">
+         <div class="form-check">
+            <label for="midiRadio" class="form-check-label">Midi</label>
+            <input type="radio" class="form-check-input" id="midiRadio" name="ServiceChoisi">
+         </div>
+         <div class="form-check">
+            <label for="soirRadio" class="form-check-label">Soir</label>
+            <input type="radio" class="form-check-input" id="soirRadio" name="ServiceChoisi">
+         </div>
+      </div>
+      <div class="mb-3">
+         <label for="selectHour" class="form-label">Heure</label>
+         <select class="form-select" id="selectHour" name="Heure">
+            <option>12:00</option>
+            <option>12:15</option>
+            <option>12:30</option>
+            <option>12:45</option>
+            <option>13:00</option>
+            <option>13:15</option>
+            <option>13:30</option>
+            <option>13:45</option>
+            <option>19:00</option>
+            <option>19:15</option>
+            <option>19:30</option>
+            <option>19:45</option>
+            <option>20:00</option>
+            <option>20:15</option>
+            <option>20:30</option>
+            <option>20:45</option>
+            <option>21:00</option>
+            <option>21:15</option>
+            <option>21:30</option>
+            <option>22:00</option>
+            <option>22:15</option>
+            <option>22:30</option>
+            <option>22:45</option>
+         </select>
+      </div>
+      <div class="text-center">
+         <button type="submit" class="btn btn-primary">Réserver</button>
+         <button type="submit" class="btn btn-danger">Annuler</button>
+      </div>
+   </form>
+</div>

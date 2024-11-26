@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="scss/main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="48x48" href="/img/favicon/favicon.ico">
+   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+   <title>Document</title>
+</head>
+<body>
+   <header>
+         <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="logo du restaurant" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button> 
+      
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="/galerie">Galerie</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="/carte">La Carte</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="/reservation">Les Réservations</a>
+                  </li>
+                  <li class="nav-item" data-show="disconnected">
+                     <a class="nav-link" href="/connexion">Connexion</a>
+                  </li>
+                  <li class="nav-item" data-show="connected">
+                     <button class="nav-link" id="signout-btn">Déconnexion</button>
+                  </li>
+
+               </ul>
+            </div>
+            </div>
+         </nav>
+   </header>
+
+   <!-- Le contenu de la page sera injectée içi -->
+   <main id="main-page">
+
+
+   </main>
+
+   <footer class="bg-secondary text-dark text-center footer">
+      <div class="row">
+         <div class="col-12 col-lg-4">
+            <h3 class="text-primary">Nos horaires</h3>
+            <p>Du Mardi au dimanche <br/>
+               12:00-14:00 <br/>
+               18:00-23:00</p>
+         </div>
+         <div class="col-6 col-lg-4">
+            <h3 class="text-primary">Nous trouver</h3>
+            <p>5 rue de la route <br/>
+               73000 Chambéry <br/>
+               X: 45°34'0.01" Y: 5°55'59.99"
+            </p>
+         </div>
+         <div class="col-6 col-lg-4">
+            <h3 class="text-primary">Nous contacter</h3>
+            <p>06 00 00 00 00 <br/>
+               quaiantique@gmail.com <br/>
+               <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+               <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            </p>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/script.js"></script>
+   <script type="module" src="Router/Router.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
